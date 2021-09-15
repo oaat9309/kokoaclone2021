@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="style.css">
     <title>Kokoa Index</title>
 </head>
 <body>
@@ -17,15 +17,23 @@
             <span>18:43</span>
         </div>
         <div class="status-bar__column">
-            <span>110%</span>
-            <i class="fas fa-battery-quarter"></i>
+            <span>30%</span>
+            <i class="fas fa-battery-quarter fa-lg"></i>
             <i class="fas fa-bolt"></i>
         </div>
     </div>
-    <section>
-        <h2>Welcome to KakaoTalk</h2>
-        <div>If you have a Kakao Account, log in with your email or phone number.</div>
-    </section>
+    <header class="welcome-header">
+        <h1 class="welcome-header__title">Welcome to KakaoTalk</h1>
+        <p class="welcome-header__text">
+            If you have a Kakao Account, log in with your email or phone number.
+        </p>
+    </header>
+    <form class="login-form">
+        <input type="text" placeholder="Email or phone number">
+        <input type="password" placeholder="Password">
+        <input type="submit" value="Log In">
+        <a href="#">Find Kakao Account or Password</a>
+    </form>
     <script src="https://kit.fontawesome.com/1b4129514a.js" crossorigin="anonymous"></script>
 </body>
 </html>
