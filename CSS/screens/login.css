@@ -21,7 +21,7 @@
 }
 
 .login-form input:focus {
-    border-color: var(--yellow);
+    border-color: orange;
 }
 
 .login-form input:nth-child(3) {
@@ -29,7 +29,7 @@
 }
 
 .login-form input[type="submit"] {
-    background-color: var(--yellow);
+    background-color: orange;
     cursor: pointer;
     padding: 20px 0px;
     border-radius: 10px;
