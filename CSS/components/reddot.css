@@ -1,0 +1,13 @@
+.reddot {
+    background-color: red;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    position: absolute;
+    left: 30px;
+}
+
+.redddot--header {
+    left: 5px;
+    top: 10px;
+}

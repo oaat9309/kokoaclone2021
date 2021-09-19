@@ -26,3 +26,7 @@
     width: 80px;
 }
 
+.screen-header__icon--find span:last-child {
+    position: relative;
+}
+
