@@ -18,3 +18,11 @@
     align-items: center;
 }
 
+.screen-header__icon--chat {
+    width: 160px;
+}
+
+.screen-header__icon--find {
+    width: 80px;
+}
+

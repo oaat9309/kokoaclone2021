@@ -1,0 +1,32 @@
+.badge {
+    background-color: red;
+    display: flex;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    color: white;
+    font-size: 10pt;
+}
+
+.empty-badge {
+    background-color: white;
+    display: flex;
+    width: 20px;
+    height: 20px;
+}
+
+.badge-text {
+    font-weight: 300;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.badge-text span {
+    font-size: 11pt;
+    color: rgba(0,0,0,0.5);
+    display: block;
+    margin-bottom: 5px;
+}
