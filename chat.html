@@ -5,10 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./CSS/style.css">
-    <title>chat</title>
+    <title>Chat</title>
 </head>
-<body>
-    <div class="status-bar">
+<body class="chat-screen">
+    <div class="status-bar status-bar--chat">
         <div class="status-bar__column">
             <span>No Service</span>
             <i class="fas fa-wifi"></i>
@@ -22,75 +22,22 @@
             <i class="fas fa-bolt"></i>
         </div>
     </div>
-    <header class="screen-header">
-        <h1 class="screen-header__title">Chats</h1>
-        <div class="screen-header__icon screen-header__icon--chat">
-            <span><a href="#"><i class="fas fa-search fa-lg"></i></a></span>
-            <span><a href="#"><i class="far fa-comment-dots fa-lg"></i></a></span>
-            <span><a href="#"><i class="fab fa-itunes-note fa-lg"></i></a></span>
-            <span><a href="#"><i class="fas fa-cog fa-lg"></i></a></span>
+    <header class="alt-header">
+        <div class="alt-header__column">
+            <a href="./chats.html">
+                <i class="fas fa-angle-left fa-2x"></i>
+            </a>
+        </div>
+        <div class="alt-header__column">
+            <h1 class="alt-header__title">Nomad Chatbot</h1>
+        </div>
+        <div class="alt-header__column">
+            <i class="fas fa-search fa-lg"></i>
+            <i class="fas fa-bars fa-lg"></i>
         </div>
     </header>
     <main class="main-screen">
-        <div class="user-component">
-            <div class="user-component__column">
-                <img class="user-component__avatar" src="./image/nomadcoderlogo.png">
-                <div class="user-component__text">
-                    <h4 class="user-component__title">Nomad Chatbot</h4>
-                    <h6 class="user-component__subtitle">Having fun with Clone Coding?</h6>
-                </div>
-                <div class="user-component__text badge-text">
-                    <span>17:40</span>
-                    <div class="badge">1</div>
-                </div>
-            </div>
-            <div class="user-component__column">
-                <img class="user-component__avatar" src="./image/thermite.webp">
-                <div class="user-component__text">
-                    <h4 class="user-component__title">Thermite</h4>
-                    <h6 class="user-component__subtitle">I've got smoke grenade!</h6>
-                </div>
-                <div class="user-component__text badge-text">
-                    <span>16:01</span>
-                    <div class="empty-badge"></div>
-                </div>
-            </div>
-            <div class="user-component__column">
-                <img class="user-component__avatar" src="./image/vaultboy.png">
-                <div class="user-component__text">
-                    <h4 class="user-component__title">Vaultboy</h4>
-                    <h6 class="user-component__subtitle">Prepare for the future y'all</h6>
-                </div>
-                <div class="user-component__text badge-text">
-                    <span>17:02</span>
-                    <div class="empty-badge"></div>
-                </div>
-            </div>
-            <div class="user-component__column">
-                <img class="user-component__avatar" src="./image/GarroshArt.jpg">
-                <div class="user-component__text">
-                    <h4 class="user-component__title">Garrosh</h4>
-                    <h6 class="user-component__subtitle">I'm looking for MANA BOMBS</h6>
-                </div>
-                <div class="user-component__text badge-text">
-                    <span>09.17</span>
-                    <div class="empty-badge"></div>
-                </div>
-            </div>
-        </div>
-    </main>    
-    <nav class="nav">
-        <ul class="nav__list">
-            <li class="nav__button">
-                <a class="nav__link" href="./friends.html"><i class="far fa-user fa-2x"></i></a>
-            <li class="nav__button">
-                <a class="nav__link" href="./chat.html"><span class="nav__notification badge">1</span><i class="fas fa-comments fa-2x"></i></a>
-            <li class="nav__button">
-                <a class="nav__link" href="./find.html"><i class="fa fa-search fa-2x"></i></a>
-            <li class="nav__button">
-                <a class="nav__link" href="./more.html"><div class="reddot"></div><i class="fa fa-ellipsis-h fa-2x"></i></a>
-        </ul>
-    </nav>
+    </main>
     <script src="https://kit.fontawesome.com/1b4129514a.js" crossorigin="anonymous"></script>
 </body>
 </html>

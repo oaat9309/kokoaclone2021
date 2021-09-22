@@ -1,0 +1,31 @@
+.setting-list {
+    border-bottom: 1px solid rgba(0,0,0,0.4);
+    padding: 0px 10px;
+}
+
+.settings__setting {
+    padding: 20px 0px;
+    font-size: 15pt;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.settings__setting i {
+    margin-right: 20px;
+    font-size: 16pt;
+}
+
+.settings__setting-column {
+    display: flex;
+    justify-content: left;
+    flex-wrap: nowrap;
+}
+
+.settings__setting-column>.badge {
+    margin-left: 10px;
+}
+
+.settings__setting-column:last-child {
+    opacity: 0.6;
+}
