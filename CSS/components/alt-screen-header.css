@@ -10,15 +10,24 @@
 .alt-header__title {
     font-size: 15pt;
     font-weight: 600;
+    margin-left: 20px;
 }
 
+
+.alt-header__column {
+    width: 33%;
+}
 
 .alt-header__column:last-child {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
     align-items: center;
 }
 
+.alt-header__column:nth-child(2){
+    text-align: center;
+}
+
 .fa-bars {
-    padding-left: 10px;
+    margin-left: 10px;
 }

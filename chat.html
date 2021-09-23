@@ -8,7 +8,7 @@
     <title>Chat</title>
 </head>
 <body class="chat-screen">
-    <div class="status-bar status-bar--chat">
+    <div class="status-bar">
         <div class="status-bar__column">
             <span>No Service</span>
             <i class="fas fa-wifi"></i>
@@ -32,12 +32,45 @@
             <h1 class="alt-header__title">Nomad Chatbot</h1>
         </div>
         <div class="alt-header__column">
-            <i class="fas fa-search fa-lg"></i>
+            <a href="./find.html"><i class="fas fa-search fa-lg"></i></a>
             <i class="fas fa-bars fa-lg"></i>
         </div>
     </header>
-    <main class="main-screen">
+    <main class="main-screen main-chat">
+        <div class="chat-timestamp">
+            Thursday, September 23, 2021
+        </div>
+        <div class="message-row">
+            <img src="./image/nomadcoderlogo.png">
+            <div class="message-row__content">
+                <span class="message-row__author">Nomad Chatbot</span>
+                <div class="message-row__info">
+                    <span class="message__bubble">Having fun with Clone Coding?</span>
+                    <span class="message__time">17:40</span>
+                </div>
+            </div>
+        </div>
+        <div class="message-row message-row--own">
+            <div class="message-row__content">
+                <div class="message-row__info">
+                    <span class="message__time">17:41</span>
+                    <span class="message__bubble">I have no idea!!!</span>
+                </div>
+            </div>
+        </div>
     </main>
+    <form class="reply">
+        <div class="reply__column">
+            <i class="far fa-plus-square"></i>
+        </div>
+        <div class="reply__column">
+            <input type="text" placeholder="Write a message">
+            <i class="far fa-smile"></i>
+            <button>
+                <i class="fas fa-paper-plane"></i>
+            </button>
+        </div>
+    </form>
     <script src="https://kit.fontawesome.com/1b4129514a.js" crossorigin="anonymous"></script>
 </body>
 </html>

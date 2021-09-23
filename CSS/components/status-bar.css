@@ -10,10 +10,6 @@
     background-color: white;
 }
 
-.status-bar--chat {
-    background-color: rgb(247, 184, 162);
-}
-
 .status-bar__column {
     width: 33%;
 }
