@@ -20,6 +20,7 @@
 @import "./screens/more.css";
 @import "./screens/settings.css";
 @import "./screens/chat.css";
+@import "/CSS/screens/music.css";
 
 body {
     height: 100vh;

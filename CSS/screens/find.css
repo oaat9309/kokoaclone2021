@@ -1,3 +1,7 @@
+.find-screen {
+    height: 105vh;
+}
+
 .find-icons {
     display: flex;
     justify-content: space-around;
@@ -84,6 +88,18 @@
     color: orange;
 }
 
+@keyframes heartBeat {
+    0% {
+        color: white;
+    }
+    50% {
+        color: red;
+    }
+    100% {
+        color: white;
+    }
+}
+
 .find-openchat__heart1 {
     position: absolute;
     bottom: 150px;
@@ -102,4 +118,13 @@
     background-color: rgba(0,0,0,0.5);
     border-radius: 10px;
     padding: 5px;
+}
+
+.fa-heart {
+    margin-right: 5px;
+}
+
+.find-openchat__heart1:hover i,
+.find-openchat__heart2:hover i{
+    animation: heartBeat 1s linear infinite;
 }
