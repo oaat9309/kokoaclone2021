@@ -45,7 +45,7 @@
 .message-row {
     width: 100%;
     display: flex;
-    margin: 20px 0px 25px;
+    margin: 20px 0px 0px;
 }
 
 .message-row--own {
