@@ -33,3 +33,7 @@
 .status-bar__column:last-child .fa-battery-quarter {
     margin: 0px 3px;
 }
+
+.status-bar--music {
+    background-color: orange;
+}

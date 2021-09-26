@@ -1,3 +1,63 @@
 .music-body {
-    background-color: red;
+    background-color: orange;
+    height: 130vh;
+}
+
+.music-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.music__player {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    width: 400px;
+    height: 100vh;
+}
+
+.music__player-cover img {
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+}
+
+.music__player-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.music__player-title {
+    font-size: 16pt;
+    font-weight: 600;
+}
+
+.music__player-artist {
+    font-size: 13pt;
+    opacity: 0.6;
+}
+
+.music__player-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+}
+
+.music__player-additional {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+}
+
+.music__player-additional>.fa-heart:hover {
+    animation: heartBeat 1s linear infinite;
 }
